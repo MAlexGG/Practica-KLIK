@@ -40,9 +40,8 @@ nav {
 .principal {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     align-items: flex-end;
-        
 }
 
 .textoPrincipal {
@@ -50,33 +49,32 @@ nav {
     padding-right: 20px;
 }
 
-.imgPrincipal{
+.imgPrincipal {
     height: 90vh;
     width: auto;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-weight: 900;
     padding-left: 20px;
 }
 
-.balls{
+.balls {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.totalBall{
+.totalBall {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
-.ball{
+.ball {
     border: 4px solid #323232;
     height: 70px;
     width: 70px;
@@ -88,11 +86,11 @@ h2{
     margin: 0px;
 }
 
-.textBall{
+.textBall {
     font-size: 28px;
     font-weight: 700;
 }
 
-.valores{
+.valores {
     height: 100vh;
 }

@@ -4,11 +4,10 @@
 
 body {
     font-family: 'Ruda', sans-serif;
-} 
+}
 
-p{
-    color:#323232;
-
+p {
+    color: #323232;
 }
 
 nav {
@@ -97,5 +96,29 @@ h2 {
 }
 
 .valores {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}
+
+.tituloValores {
     height: 100vh;
+    width: 50vw;
+    background-color: #323232;
+}
+
+h3 {
+    color: #F1ECDE;
+    font-size: 50px;
+    margin: 30px;
+}
+
+.textoValores {
+    height: 95vh;
+    width: 50vw;
+    background-color: #F1ECDE;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 18px;
 }

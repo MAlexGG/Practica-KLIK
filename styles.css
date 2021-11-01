@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Ruda', sans-serif;
+    margin: 0px;
 }
 
 p {
@@ -15,12 +16,12 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
     height: 22px;
     padding: 10px;
 }
 
-.buscador {}
+.search {}
 
 .input {
     border: 1px solid #C4C4C4;
@@ -48,20 +49,27 @@ nav {
     align-items: flex-end;
 }
 
-.textoPrincipal {
+.txt-principal {
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 20px;
 }
 
-.imgPrincipal {
+.img-principal {
     height: 90vh;
     width: auto;
 }
 
 h2 {
+    color:#323232;
     font-size: 30px;
     font-weight: 900;
     padding-left: 20px;
+}
+
+.ct-whatWeDo{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .balls {
@@ -71,7 +79,7 @@ h2 {
     justify-content: space-around;
 }
 
-.totalBall {
+.ct-ball {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,35 +98,110 @@ h2 {
     margin: 0px;
 }
 
-.textBall {
+.txt-ball {
     font-size: 28px;
     font-weight: 700;
 }
 
-.valores {
+.ct-values {
     display: flex;
     flex-wrap: nowrap;
-    margin-top: 40px;
 }
 
-.tituloValores {
-    height: 100vh;
+.ct-title {
     width: 50vw;
     background-color: #323232;
 }
 
-h3 {
+.title-values {
     color: #F1ECDE;
     font-size: 50px;
-    margin: 30px;
+    margin: 85px;
 }
 
-.textoValores {
-    height: 95vh;
+.ct-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     width: 50vw;
     background-color: #F1ECDE;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.txt-values{
+    margin: 40px;
+}
+
+.ct-team{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.ct-titleTeam{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-team{
+    color: #323232;
+    font-size: 50px;
+    margin: 85px;
+}
+
+.ct-members{
+    margin: 85px ;
+    color: #323232;
+    font-size: 20px;
+}
+
+.ct-imgTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 50vw;
+    font-size: 24px;
+}
+
+.img-member{
+    display: flex;
+    justify-content: start;
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.ct-tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.ct-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ct-logos img{
+    width: 150px;
+    margin: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #323232;
+    color: #F1ECDE;
 }
